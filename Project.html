@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Miyoung Chung Web </title>
+    <link rel="stylesheet" href = "style.css">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+</head>
+<body>
+    <div class = "Site-wrapper">
+        <div id = "page" class = "hfeed site">
+            <header id = "masthead" class = "site-header" role = "banner">
+                <div class = "site-branding">
+                    <p class = "site-title">
+                        Miyoung Chung
+                    </p>
+                </div>
+                <div class = "nav-wrapper">
+                    <nav id = "site-navigation" class = "main-navigation" role = "navigation">
+                        <botton class = "menu-toggle" aria-controls = "primary-menu" aria-expanded = "false">
+                            +Menu
+                        </botton>
+                        <div class = "enu-primary=container">
+                            <ul id = "primary-menu" class = "menu van-menu" aria-expanded="false">
+                                <li id="menu-item-1" class = "menu-item menu-item-type-post_type menu-item-object-page menu-item-home  page_item page-item-5 menu-item-1">
+                                    <a href="index.html" aria-current = "page"> Home</a>
+                                </li>
+                                <li id="menu-item-2" class = "menu-item menu-item-type-post_type menu-item-object-page menu-item-2">
+                                    <a href="About.html"> About</a>
+                                </li>
+                                <li id="menu-item-3" class = "current-menu-item current_page_item menu-item menu-item-type-post_type menu-item-object-page menu-item-3">
+                                    <a href="Project.html"> Project</a>
+                                </li>
+                                <li id="menu-item-4" class = "menu-item menu-item-type-post_type menu-item-object-page menu-item-4">
+                                    <a href="CV.html"> CV</a>
+                                </li>
+                                <li id="menu-item-5" class = "menu-item menu-item-type-post_type menu-item-object-page menu-item-5">
+                                    <a href="Contact.html"> Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div id="content" class= "site-content">
+                <header class = "entry-header">
+                    <h1 class="every-title"> Project </h1>
+                </header>
+                <div class = "project1">
+                    <h2 class="every-title">Music BCI - BrainCoder</h2>
+                    <div class = "project-content">
+                        <div class = "projectimg">
+                            <video width = "20em" height = "auto" autoplay controls loop muted >
+                                <source src="file/real-time-video.mp4" type = "video/mp4">
+                                Sorry your browser doesn't support embedded vidoes.
+                            </video>
+                        </div>
+                        <div class = "projecttext">
+                            <p>
+                                This is a BrainCoder real-time feedback system. The circle icon in the keyboard is predicting a imagined musical pitch from the EEG feature at that time. 
+                                Subject is imagining a musical pitch colored in sky blue on the keyboard, with a task to locate the icon at the keyboard.
+                                Also, the auditory feedback is present everytime the predictions are made(sound is not out here as subject is listening to it with earphones). This audio-visual feedback might grow the pitch sense of the subject which can be used as a training method for the amusics.
+                                The feature extraction method and the journal article of it is in the peer-reviewed progress.
+                                The system development method and feedback generating method will be written in article too.
+                            </p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class = "project2">
+                    <h2 class="every-title">Speech BCI</h2>
+                    <div class = "project-content">
+                        <div class = "projectimg">
+                            <img src = "image/comingup.jpg" alt = "upcoming">
+                        </div>
+                        <div class = "projecttext">
+                            <p> Along with Music BCI, the speech BCI for Korean is in progress. The offline data analysis of Electrocorticogram for 8 Korean words is in the preparation of writing.
+                                The content of it is the relationship between the Korean words feature, semantic/phonologic, and the tasks, Covert/Overt, with ERP pattern analysis using DTW(dynamic time warping).
+                                However, the final purpose is to generate imagined Korean sentence for patients who lost the linguistic communication ability.
+                                Currently, I am working on the experiment of Korean words and analyzing it in chunk unit, Object and Verb.
+                                The image representing the project is upcoming. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "project3">
+                    <h2 class="every-title">AICP Challenge</h2>
+                    <div class = "project-content">
+                        <div class = "projectimg">
+                            <img src = "image/AICP.jpg" alt = "bio">
+                        </div>
+                        <div class = "projecttext">
+                            <p>AICP challenge is a AI project held in UNIST innovative education center. I am a memeber of team 'Cheonsang-gye' as a data analysist.
+                                We are conducting a research with robot sensor data, as the smart factory work environment is becoming prevalent in aerospace and automobile industry.
+                                As the prediction power of robot arm drilling process is becoming important in that condition, a novel method to predict the delamination on Carbon-fiber Reinforced plastic(CFRP) is developing, 
+                                and one of the methods is to predict it with AI algorithm which is unknown yet. We are conducting data analysis and about to apply an 'multi-modal Neural Network' to the data to predict the delamination more accurate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <footer id = "colophon" class = "site-footer" role = "contentinfo">
+
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
